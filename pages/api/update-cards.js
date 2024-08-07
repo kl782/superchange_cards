@@ -4,7 +4,7 @@ import path from 'path';
 let cards = require('../../components/cards').default;
 
 export default function handler(req, res) {
-  const apiKey = req.headers['x-api-key']; // Get the API key from the request headers
+  const apiKey = req.headers['X-API-KEY']; // Get the API key from the request headers
 
   if (apiKey !== process.env.API_KEY) {
     return res.status(401).json({ message: 'Unauthorized' });
