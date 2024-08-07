@@ -32,9 +32,11 @@ export default function CardShuffler() {
     return (
       <>
         {card.subtitleAbove && <h3 className={styles.subtitleAbove}>{card.subtitleAbove}</h3>}
-        <h2 className={`${styles.title} ${card.type === 'buttons' ? styles.titleLarge : styles.titleSmall}`}>
-          {card.title || 'No Title'}
-        </h2>
+        {card.title && (
+          <h2 className={`${styles.title} ${card.type === 'buttons' ? styles.titleLarge : styles.titleSmall}`}>
+            {card.title}
+          </h2>
+        )}
         {card.subtitleBelow && <h3 className={styles.subtitleBelow}>{card.subtitleBelow}</h3>}
         {card.content && <div dangerouslySetInnerHTML={{ __html: marked(card.content) }} />}
         {card.buttons && card.buttons.length > 0 && (
