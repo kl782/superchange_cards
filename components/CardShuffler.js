@@ -38,7 +38,7 @@ export default function CardShuffler() {
           </h2>
         )}
         {card.subtitleBelow && <h3 className={styles.subtitleBelow}>{card.subtitleBelow}</h3>}
-        {card.content && <div dangerouslySetInnerHTML={{ __html: marked(card.content) }} />}
+        {card.content && card.content.trim() && <div dangerouslySetInnerHTML={{ __html: marked(card.content) }} />}
         {card.buttons && card.buttons.length > 0 && (
           <div className={styles.buttons}>
             {card.buttons.map((button, index) => (
