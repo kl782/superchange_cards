@@ -1,7 +1,6 @@
 // components/cards.js
 
 const cards = [
-  [
     {
         "id": 1,
         "subtitleAbove": "I want to...",
@@ -149,7 +148,6 @@ const cards = [
         "category": "",
         "canShuffle": false
     }
-]
 ];
 
 export default cards;
