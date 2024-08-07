@@ -39,11 +39,11 @@ const cards = [
                 "url": "#5"
             },
             {
-                "text": "Slack Search (Extended)",
+                "text": "More on Slack Search",
                 "url": "#6"
             },
             {
-                "text": "Slack Summary (Extended)",
+                "text": "More on Slack Summary",
                 "url": "#7"
             }
         ],
