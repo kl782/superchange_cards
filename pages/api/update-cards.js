@@ -1,11 +1,15 @@
-// pages/api/update-cards.js
-
 import fs from 'fs';
 import path from 'path';
 
 let cards = require('../../components/cards').default;
 
 export default function handler(req, res) {
+  const apiKey = req.headers['x-api-key']; // Get the API key from the request headers
+
+  if (apiKey !== process.env.API_KEY) {
+    return res.status(401).json({ message: 'Unauthorized' });
+  }
+
   if (req.method === 'POST') {
     const newCard = req.body;
 
@@ -34,9 +38,3 @@ export default function handler(req, res) {
     res.status(405).json({ message: 'Method not allowed' });
   }
 }
-d updated successfully' });
-  } else {
-    res.status(405).json({ message: 'Method not allowed' });
-  }
-}
-
