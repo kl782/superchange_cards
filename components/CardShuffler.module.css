@@ -1,0 +1,123 @@
+/* components/CardShuffler.module.css */
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('/card_background.png') no-repeat center center;
+    background-size: cover;
+    color: #1B212B;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: url('/logo-plus-glow.svg') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #1B212B;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+ 
+.subtitle {
+  font-size: 0.5em;
+  color: #ccc;
+  font-family: 'Aeonik', sans-serif;
+  margin: 0; 
+  padding: 4; 
+}
+
+.subtitleAbove {
+  text-align:left;
+  margin-bottom: 0.1em; 
+}
+
+.subtitleBelow {
+  text-align:right;
+  margin-top: 0.3em; 
+}
+
+.title {
+  background: -webkit-linear-gradient(45deg, #b1e8e8, #f4f5ac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'StabGrot', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+  .titleLarge {
+    font-size: 2em;
+  }
+  
+  .titleSmall {
+    font-size: 1.5em;
+  }
+  
+  .card p {
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button {
+    margin: 5px 0;
+    padding: 10px 20px;
+    text-align: center;
+    color: #1B212B;
+    background-color: #f4f5ac;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #fafafa;
+  }
+  
+
+  .content {
+    color: #ffffff; /* or any light color that contrasts well with #1B212B */
+  }
+
+  .shuffleButton {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #1B212B;
+    background-color: #f4f5ac;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shuffleButton:hover {
+    background-color: #fafafa;
+  }
+  

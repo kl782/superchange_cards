@@ -1,0 +1,11 @@
+/* styles/globals.css */
+
+@font-face {
+    font-family: 'StabilGrotesk';
+    src: url('/StabilGrotesk-Regular.otf') format('opentype');
+  }
+  
+  body {
+    font-family: 'StabilGrotesk', sans-serif;
+  }
+  
