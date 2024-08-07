@@ -1,8 +1,6 @@
-// components/CardShuffler.js
-
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { marked } from 'marked';
+import marked from 'marked';
 import styles from './CardShuffler.module.css';
 import cards from './cards';
 
@@ -11,9 +9,8 @@ export default function CardShuffler() {
 
   const currentCard = cards[currentCardIndex];
 
-  const handleShuffle = () => {
-    const shuffleCategory = currentCard.category;
-    const filteredCards = cards.filter(card => card.category === shuffleCategory && card.canShuffle);
+  const handleShuffle = (category) => {
+    const filteredCards = cards.filter(card => card.category === category);
     const randomIndex = Math.floor(Math.random() * filteredCards.length);
     const newCardIndex = cards.indexOf(filteredCards[randomIndex]);
     setCurrentCardIndex(newCardIndex);
@@ -33,18 +30,22 @@ export default function CardShuffler() {
 
   const renderCardContent = (card) => {
     return (
-      <div className={styles.cardContent}>
-        {card.subtitleAbove && <h3 className={`${styles.subtitle} ${styles.subtitleAbove}`}>{card.subtitleAbove}</h3>}
-        <h2 className={`${styles.title} ${card.type === 'buttons' ? styles.titleLarge : styles.titleSmall}`}>{card.title}</h2>
-        {card.subtitleBelow && <h4 className={`${styles.subtitle} ${styles.subtitleBelow}`}>{card.subtitleBelow}</h4>}
-        <div dangerouslySetInnerHTML={{ __html: marked(card.content) }} />
-        <div className={styles.buttons}>
-          {card.buttons.map((button, index) => (
-            <button key={index} onClick={() => handleButtonClick(button.url)} className={styles.button}>
-              {button.text}
-            </button>
-          ))}
-        </div>
+      <>
+        {card.subtitleAbove && <h3 className={styles.subtitleAbove}>{card.subtitleAbove}</h3>}
+        <h2 className={`${styles.title} ${card.type === 'buttons' ? styles.titleLarge : styles.titleSmall}`}>
+          {card.title || 'No Title'}
+        </h2>
+        {card.subtitleBelow && <h3 className={styles.subtitleBelow}>{card.subtitleBelow}</h3>}
+        {card.content && <div dangerouslySetInnerHTML={{ __html: marked(card.content) }} />}
+        {card.buttons && card.buttons.length > 0 && (
+          <div className={styles.buttons}>
+            {card.buttons.map((button, index) => (
+              <button key={index} onClick={() => handleButtonClick(button.url)} className={styles.button}>
+                {button.text}
+              </button>
+            ))}
+          </div>
+        )}
         {card.media && (
           <div className={styles.media}>
             {card.media.includes('youtube') ? (
@@ -57,7 +58,7 @@ export default function CardShuffler() {
             )}
           </div>
         )}
-      </div>
+      </>
     );
   };
 
@@ -76,12 +77,11 @@ export default function CardShuffler() {
           {renderCardContent(cards[currentCardIndex])}
         </motion.div>
       </AnimatePresence>
-      {currentCard.canShuffle && (
-        <button onClick={handleShuffle} className={styles.shuffleButton}>
+      {currentCard.category && (
+        <button onClick={() => handleShuffle(currentCard.category)} className={styles.shuffleButton}>
           Shuffle
         </button>
       )}
     </div>
   );
 }
-
