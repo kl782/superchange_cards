@@ -1,5 +1,3 @@
-// pages/api/update-cards.js
-
 import fs from 'fs';
 import path from 'path';
 
@@ -29,3 +27,4 @@ export default function handler(req, res) {
     res.status(405).json({ message: 'Method not allowed' });
   }
 }
+
