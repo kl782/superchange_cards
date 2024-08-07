@@ -8,6 +8,8 @@
     height: 100vh;
     background: url('/card_background.png') no-repeat center center;
     background-size: cover;
+    color: #1B212B;
+    position: relative;
     background-color: #1B212B;
   }
   
