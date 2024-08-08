@@ -100,7 +100,7 @@ const cards = [
             },
             {
                 "text": "Link to our list",
-                "url": "http://dora"
+                "url": "http://superxchange.dora.run/card4"
             }
         ],
         "media": "",
@@ -166,7 +166,7 @@ const cards = [
         "buttons": [
             {
                 "text": "Ideas",
-                "url": "http://dora.run"
+                "url": "http://superxchange.dora.run/card7"
             },
             {
                 "text": "Go back",
