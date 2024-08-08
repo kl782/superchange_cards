@@ -2,6 +2,27 @@
 
 const cards = [
     {
+        "id": 1,
+        "subtitleAbove": "",
+        "title": "Welcome!",
+        "subtitleBelow": "",
+        "content": "",
+        "buttons": [
+            {
+                "text": "Browse by Tool",
+                "url": "#31"
+            },
+            {
+                "text": "Search by Task",
+                "url": "#32"
+            }],
+        "media": "",
+        "type": "",
+        "category": "",
+        "canShuffle": false,
+        "tool": ""
+    },
+    {
         "id": 30,
         "subtitleAbove": ".",
         "title": "Supercharge Slack",
@@ -643,27 +664,6 @@ const cards = [
                 "url": "#1"
             }
         ],
-        "media": "",
-        "type": "",
-        "category": "",
-        "canShuffle": false,
-        "tool": ""
-    },
-    {
-        "id": 1,
-        "subtitleAbove": "",
-        "title": "Welcome!",
-        "subtitleBelow": "",
-        "content": "",
-        "buttons": [
-            {
-                "text": "Browse by Tool",
-                "url": "#31"
-            },
-            {
-                "text": "Search by Task",
-                "url": "#32"
-            }],
         "media": "",
         "type": "",
         "category": "",
