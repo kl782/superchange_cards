@@ -9,12 +9,19 @@ export default function CardShuffler() {
 
   const currentCard = cards[currentCardIndex];
 
-  const handleShuffle = (category) => {
-    const filteredCards = cards.filter(card => card.category === category);
-    const randomIndex = Math.floor(Math.random() * filteredCards.length);
-    const newCardIndex = cards.indexOf(filteredCards[randomIndex]);
+const handleShuffle = (category) => {
+  const filteredCards = cards.filter(card => card.category === category && card.canShuffle);
+  if (filteredCards.length > 1) {
+    let randomIndex;
+    do {
+      randomIndex = Math.floor(Math.random() * filteredCards.length);
+    } while (filteredCards[randomIndex].id === currentCard.id);
+
+    const newCardIndex = cards.findIndex(card => card.id === filteredCards[randomIndex].id);
     setCurrentCardIndex(newCardIndex);
-  };
+  }
+};
+
 
   const handleButtonClick = (url) => {
     if (url.startsWith('#')) {
