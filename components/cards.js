@@ -153,7 +153,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Search",
         "subtitleBelow": "with Slack AI",
-        "content": "First, take a look at Slack's [tips for searching](https://slack.com/intl/en-sg/help/articles/25604701408275-Tips-for-searching-with-Slack-AI)\nHere are three more ideas:\n- **1) Avoid hyperspecificity**: At least at the time of writing, Slack AI sometimes hallucinates responses to questions on extremely specific tasks. If you are ever in doubt, check it against the source, hyperlinked in square brackets -- and wherever you can, rephrase the question broadly, so Slack doesn't jump the gun.",
+        "content": "First, take a look at Slack's [tips for searching](https://slack.com/intl/en-sg/help/articles/25604701408275-Tips-for-searching-with-Slack-AI). Here are three more ideas:- **1) Avoid hyperspecificity**: At least at the time of writing, Slack AI sometimes hallucinates responses to questions on extremely specific tasks. If you are ever in doubt, check it against the source, hyperlinked in square brackets -- and wherever you can, rephrase the question broadly, so Slack doesn't jump the gun.",
         "buttons": [
             {
                 "text": "2) [Keyword] + ?",
