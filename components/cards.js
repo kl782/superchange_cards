@@ -258,6 +258,10 @@ const cards = [
             {
                 "text": "Chat with your Inbox",
                 "url": "#14"
+            },
+            {
+                "text": "Go back",
+                "url": "#1"
             }
         ],
         "media": "https://www.youtube.com/watch?v=3v0EY-h7lPE",
