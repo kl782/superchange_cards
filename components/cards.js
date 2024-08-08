@@ -2,8 +2,8 @@
 
 const cards = [
     {
-        "id": 1,
-        "subtitleAbove": "I want to...",
+        "id": 30,
+        "subtitleAbove": ".",
         "title": "Supercharge Slack",
         "subtitleBelow": "...by",
         "content": "",
@@ -624,9 +624,9 @@ const cards = [
         "tool": "Slack"
     },
     {
-        "id": 30,
+        "id": 31,
         "subtitleAbove": "",
-        "title": "",
+        "title": "Browse by Tool!",
         "subtitleBelow": "",
         "content": "",
         "buttons": [
@@ -650,12 +650,20 @@ const cards = [
         "tool": ""
     },
     {
-        "id": 31,
+        "id": 1,
         "subtitleAbove": "",
-        "title": "Browse by Tool",
+        "title": "Welcome!",
         "subtitleBelow": "",
         "content": "",
-        "buttons": [],
+        "buttons": [
+            {
+                "text": "Browse by Tool",
+                "url": "#31"
+            },
+            {
+                "text": "Search by Task",
+                "url": "#32"
+            }],
         "media": "",
         "type": "",
         "category": "",
@@ -667,7 +675,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Search by Task",
         "subtitleBelow": "",
-        "content": "Here, users will be able to input and submit text (trailing after the sentence stem, \"I would like to...\"), and this will be sent to Qdrant cluster with each row saved as a single item. It should return the 3-5 rows most similar to the user's input. Ideally, these results will link directly to the necessary cards, or generate buttons that users can press to access these cards (i.e. write out the button JSON -- would require a reliable enough LLM)",
+        "content": "Here, users will be able to input and submit text (trailing after the sentence stem, \"I would like to...\"), and this will be sent to Qdrant cluster where each row saved as a single item is stored. It should return the 3-5 rows most similar to the user's input. Ideally, these results will link directly to the necessary cards, or generate buttons that users can press to access these cards (i.e. write out the button JSON -- would require a reliable enough LLM)",
         "buttons": [
             {
                 "text": "Go back",
