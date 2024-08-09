@@ -142,7 +142,7 @@ const cards = [
                 "url": "#30"
             }
         ],
-        "media": "https://www.youtube.com/embed/GaMrFJqpa2Y?si=BloUxWiMnBIOacFP",
+        "media": "https://www.youtube.com/embed/-7DbsUYM9oQ?si=Y6fNGyN9Axiyq29f",
         "type": "written",
         "category": "",
         "canShuffle": false,
