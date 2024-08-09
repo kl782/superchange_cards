@@ -34,25 +34,20 @@ const handleShuffle = (category) => {
       window.location.href = url;
     }
   };
-
-  const renderCardContent = (card) => {
+const renderCardContent = (card) => {
     return (
-      <>
-        {card.subtitleAbove && <h3 className={styles.subtitleAbove}>{card.subtitleAbove}</h3>}
-        <h2 className={`${styles.title} ${card.type === 'buttons' ? styles.titleLarge : styles.titleSmall}`}>
-          {card.title || 'No Title'}
-        </h2>
-        {card.subtitleBelow && <h3 className={styles.subtitleBelow}>{card.subtitleBelow}</h3>}
-        {card.content && <div dangerouslySetInnerHTML={{ __html: marked(card.content) }} />}
-        {card.buttons && card.buttons.length > 0 && (
-          <div className={styles.buttons}>
-            {card.buttons.map((button, index) => (
-              <button key={index} onClick={() => handleButtonClick(button.url)} className={styles.button}>
-                {button.text}
-              </button>
-            ))}
-          </div>
-        )}
+      <div className={styles.cardContent}>
+        {card.subtitleAbove && <h3 className={`${styles.subtitle} ${styles.subtitleAbove}`}>{card.subtitleAbove}</h3>}
+        <h2 className={`${styles.title} ${card.type === 'buttons' ? styles.titleLarge : styles.titleSmall}`}>{card.title}</h2>
+        {card.subtitleBelow && <h4 className={`${styles.subtitle} ${styles.subtitleBelow}`}>{card.subtitleBelow}</h4>}
+        <div dangerouslySetInnerHTML={{ __html: marked(card.content) }} />
+        <div className={styles.buttons}>
+          {card.buttons.map((button, index) => (
+            <button key={index} onClick={() => handleButtonClick(button.url)} className={styles.button}>
+              {button.text}
+            </button>
+          ))}
+        </div>
         {card.media && (
           <div className={styles.media}>
             {card.media.includes('youtube') ? (
@@ -65,7 +60,7 @@ const handleShuffle = (category) => {
             )}
           </div>
         )}
-      </>
+      </div>
     );
   };
 
