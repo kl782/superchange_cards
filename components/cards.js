@@ -367,8 +367,8 @@ const cards = [
             }
         ],
         "media": "https://youtu.be/VHsPgxTAFIE",
-        "type": "category2",
-        "category": "",
+        "type": "",
+        "category": "category2",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -385,8 +385,8 @@ const cards = [
             }
         ],
         "media": "https://youtu.be/BM8t28EMu6E",
-        "type": "category2",
-        "category": "",
+        "type": "",
+        "category": "category2",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -407,8 +407,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category2",
-        "category": "",
+        "type": "",
+        "category": "category2",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -425,8 +425,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category2",
-        "category": "",
+        "type": "",
+        "category": "category2",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -447,8 +447,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category2",
-        "category": "",
+        "type": "",
+        "category": "category2",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -465,8 +465,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category2",
-        "category": "",
+        "type": "",
+        "category": "category2",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -483,8 +483,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category3",
-        "category": "",
+        "type": "",
+        "category": "category3",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -501,8 +501,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category3",
-        "category": "",
+        "type": "",
+        "category": "category3",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -519,8 +519,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category3",
-        "category": "",
+        "type": "",
+        "category": "category3",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -537,8 +537,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category3",
-        "category": "",
+        "type": "",
+        "category": "category3",
         "canShuffle": true,
         "tool": "Gmail"
     },
@@ -555,8 +555,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category3",
-        "category": "",
+        "type": "",
+        "category": "category3",
         "canShuffle": true,
         "tool": "Gmail"
     },
