@@ -53,7 +53,7 @@ const cards = [
         "subtitleAbove": "I'd like to...",
         "title": "Go Further with Slack AI",
         "subtitleBelow": "",
-        "content": "",
+        "content": "Here's a brief rundown, and some ideas for how else you can use these tools.",
         "buttons": [
             {
                 "text": "Overview",
@@ -79,7 +79,7 @@ const cards = [
         "subtitleAbove": "Here are some ways to...",
         "title": "Bring Tools Into Slack",
         "subtitleBelow": "",
-        "content": "",
+        "content": "You can make Slack your one-stop platform for just about anything you need to do -- track support tickets, send emails, manage teams -- thanks to Integrations. We are compiling a list of integrations that we find interesting -- check them out below.",
         "buttons": [
             {
                 "text": "Synchronize Support",
@@ -113,7 +113,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Extending Slack's Capabilities",
         "subtitleBelow": "",
-        "content": "",
+        "content": "Over time, your organization's Slack becomes more than just a communication platform -- it becomes a database of information, and a platform to collect curated insights. Here are some ways we're thinking of extending Slack's capabilities:",
         "buttons": [
             {
                 "text": "Back to Slack",
@@ -135,7 +135,10 @@ const cards = [
         "subtitleAbove": "Here's an",
         "title": "Overview",
         "subtitleBelow": "of Slack AI:",
-        "content": "",
+        "content": "Slack's 3 AI features are:
+  1) AI-powered search: Slack takes your query, looks for relevant messages, and crafts a response based on these messages.
+  2) AI-powered summarization: Look in the top right of any channel, direct messages, or thread -- the twinkle button gives you a time-bound summary of it.
+  3) Recap: Slack gives you a curated digest of selected channels. ",
         "buttons": [
             {
                 "text": "Back to Slack",
@@ -183,7 +186,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Summarize",
         "subtitleBelow": "with Slack AI",
-        "content": "",
+        "content": "Summaries on Slack are bound by just one parameter: time. Here are some ideas for adjusting this parameter.",
         "buttons": [
             {
                 "text": "Ideas",
@@ -275,7 +278,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Auto-sort and Prioritize emails",
         "subtitleBelow": "with Shortwave",
-        "content": "",
+        "content": "Shortwave lets you treat your inbox like a to-do list -- that means filtering out emails you don't need to take action on, and grouping, snoozing, and ticking off emails that you do. Personally, I think it's a great way to streamline email-related tasks, and segment taking action as distinct from passively reading threads we have only a tangential relationship with. We take a tour below:",
         "buttons": [
             {
                 "text": "Go back",
@@ -293,7 +296,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Auto-extract insights",
         "subtitleBelow": "wiith Zapier",
-        "content": "",
+        "content": "Zapier lets you directly connect Gmail to over 6000 applications. That's a lot of possible workflows! From automatically logging receipts into Splitwise, to sorting Google Alert links within a Spreadsheet, here are some ideas to get you started.",
         "buttons": [
             {
                 "text": "Shuffle Ideas",
@@ -315,7 +318,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Automate Digests",
         "subtitleBelow": "with Cognosys",
-        "content": "",
+        "content": "Maybe there's a lot taking place in your inbox each day, and you don't want to have to sift through every single email to get a high-level sense of what's going on. Set up an automation in Cognosys to summarize key emails for you on your behalf, at a cadence of your choice. For example: Every day at 5pm, send me a brief summary of the 3 key things I need to know. See more in our video:",
         "buttons": [
             {
                 "text": "Go back",
@@ -333,7 +336,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Chat with your Inbox",
         "subtitleBelow": "with Gemini for Gmail",
-        "content": "",
+        "content": "Ever wished you could chat with your inbox? Enter Gemini for Gmail. Here are some ideas to get started, ranging from potentially helpful to slightly quirky.",
         "buttons": [
             {
                 "text": "Learn More: Google Blog",
