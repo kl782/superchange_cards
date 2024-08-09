@@ -40,7 +40,7 @@ const renderCardContent = (card) => {
         {card.subtitleAbove && <h3 className={`${styles.subtitle} ${styles.subtitleAbove}`}>{card.subtitleAbove}</h3>}
         <h2 className={`${styles.title} ${card.type === 'buttons' ? styles.titleLarge : styles.titleSmall}`}>{card.title}</h2>
         {card.subtitleBelow && <h4 className={`${styles.subtitle} ${styles.subtitleBelow}`}>{card.subtitleBelow}</h4>}
-        <div dangerouslySetInnerHTML={{ __html: marked(card.content) }} />
+        <p className={styles.content}>{card.content}</p>
         <div className={styles.buttons}>
           {card.buttons.map((button, index) => (
             <button key={index} onClick={() => handleButtonClick(button.url)} className={styles.button}>
