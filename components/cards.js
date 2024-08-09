@@ -359,7 +359,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Add Costs From An Email Directly Into Splitwise",
         "subtitleBelow": "with Zapier",
-        "content": "",
+        "content": "Zapier's Email Parser is great for extracting systematic information that might be formatted differently across senders. In our example, we've pulled up receipts (different vendor, different format). But this could just as well apply to news digests from different publications, subscription renewal notifications, or meeting reminders. Give it a go! And as always, because it's Zapier, we can take this information and plug it into almost any app: here, we send it to Splitwise. ",
         "buttons": [
             {
                 "text": "Go Back",
@@ -377,7 +377,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Send Google Alert Links to a Spreadsheet",
         "subtitleBelow": "with Zapier",
-        "content": "",
+        "content": "When we set Gmail as our automation trigger in Zapier, we have the opportunity to extract pretty fine-grained information. Here, we're working with Google Alerts because its format is reliably consistent. But this also applies to many other newsletters, confirmation emails, customer ticket notifications -- in other words, *most things* that come from a single vendor. Is a certain format of email central to any of your Gmail workflows? Consider extracting that information and automating what you do with it. Hint: You could even send these nuggets of information to ChatGPT to classify, summarize or respond to!   Here, we also include paths, so we sort this information to the right destination.",
         "buttons": [
             {
                 "text": "Go Back",
@@ -395,7 +395,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Collate Weekly Updates into a Single Document",
         "subtitleBelow": "with Zapier",
-        "content": "",
+        "content": "Sometimes, the relevance of a weekly update persists past that week. If you've ever reached the end of a quarter, and wished you could seamlessly scroll through a record of what happened week-by-week within a single document, you're in luck.",
         "buttons": [
             {
                 "text": "Read Our Step-by-step Guide",
@@ -417,7 +417,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Automatic Slack Notifications for High-Stakes Emails",
         "subtitleBelow": "with Zapier",
-        "content": "",
+        "content": "Some communiques are more critical than others. Set up an automation that automatically notifies the team on Slack when a high-stakes partner or client replies. You can even append the message directly in your Slack notification.",
         "buttons": [
             {
                 "text": "Go Back",
@@ -435,7 +435,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Describe and Classify Audio and Image Attachments ",
         "subtitleBelow": "with Zapier",
-        "content": "",
+        "content": "Maybe you deal with a lot of attachments, and would find it useful if these could be processed in advance on your behalf. If you're starting from .doc or .pdf, searching for it with a simple text query gets the job done -- but what about audio and images?  One possible approach: every time a new attachment comes in, use Zapier to have it described by an LLM (Gemini for audio).  You can use this description to sort it further -- maybe all pictures of company events get sent directly to a Notion page, along with a first draft for a blog post.  Maybe images related to specific social media projects are sent to the relevant Slack channel.  Maybe audio recordings of keynote speeches on Topic A are forwarded to the marketing team to be trimmed and reposted, and on Topic B, summarized with key points sent to the whole company via email.  Try it out! For tips on how to get this set up, click below for our step-by-step guide.",
         "buttons": [
             {
                 "text": "Read our Step-by-step Guide",
@@ -457,7 +457,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Funnel Customer Support Queries",
         "subtitleBelow": "with Zapier",
-        "content": "",
+        "content": "Maybe you have dedicated platforms and email addresses for customer support queries -- but how do you quickly bring the rogue email where it needs to go? Set up an automation that automatically forwards emails with a specified label to the right Slack channel, Jira board, or other inbox. ",
         "buttons": [
             {
                 "text": "Go Back",
@@ -475,7 +475,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Brainstorm Ideas",
         "subtitleBelow": "with Gemini for Gmail",
-        "content": "",
+        "content": "If your project is well-documented within your Gmail inbox, why not use these as a base to brainstorm with Gemini?   *Sample prompt*: Based on all emails from *sender* about *project* , what are some interesting directions that YOU think our project could take?   You can follow up by asking Gemini to list some pros and cons of each idea (it doesn't like to decide on best), or run a Google Search to generate more related ideas.",
         "buttons": [
             {
                 "text": "Go Back",
@@ -493,7 +493,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Process Newsletters and Digests",
         "subtitleBelow": "with Gemini for Gmail",
-        "content": "",
+        "content": "Way too much of my inbox traffic is just newsletters, so this idea comes from a personal place: If it's time to clear them off to make room for more, but you can't bear the thought of missing something interesting, ask Gemini to give you a summary of newsletters that you batch off, get summarized, and then delete.     *Sample prompt*: What were the most interesting papers highlighted in *sender name + subject of all these emails* for *time frame* ?   You can click on *Sources* to retrieve these directly from the source before deleting them!",
         "buttons": [
             {
                 "text": "Go Back",
@@ -511,7 +511,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Advanced Filtering",
         "subtitleBelow": "with Gemini for Gmail",
-        "content": "",
+        "content": "Go beyond search -- ask for Gemini's take.    *Sample prompt*: Based on emails about *project*, what are some outstanding tasks that you think *my new hire, Name*, might be well-suited to tackle?   Follow up with more context, replace names with descriptions (e.g. *a recent grad with experience in marketing*), or adjust the description for locating the relevant emails, if Gemini needs more support.",
         "buttons": [
             {
                 "text": "Go Back",
@@ -529,7 +529,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Manage Subscriptions",
         "subtitleBelow": "with Gemini for Gmail",
-        "content": "",
+        "content": "A slightly silly one -- but it can yield interesting perspectives. *Sample prompt*: If you had to recommend I unsubscribe from one existing content platform, which would it be and why?",
         "buttons": [
             {
                 "text": "Go Back",
@@ -547,7 +547,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Get Advice on Affirming Colleagues",
         "subtitleBelow": "with Gemini for Gmail",
-        "content": "",
+        "content": "In an ideal world, hard work never goes unappreciated. This isn't always easy to keep track of, but Gemini gives us the resources to get closer to that ideal world.   *Sample prompt*: Based on work that *name* has been doing *this past 3 months*, what are some ways I can affirm them at *the upcoming board meeting*?",
         "buttons": [
             {
                 "text": "Go Back",
