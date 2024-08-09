@@ -577,8 +577,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category4",
-        "category": "",
+        "type": "",
+        "category": "category4",
         "canShuffle": true,
         "tool": "Slack"
     },
@@ -599,8 +599,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category4",
-        "category": "",
+        "type": "",
+        "category": "category4",
         "canShuffle": true,
         "tool": "Slack"
     },
@@ -621,8 +621,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category4",
-        "category": "",
+        "type": "",
+        "category": "category4",
         "canShuffle": true,
         "tool": "Slack"
     },
@@ -643,8 +643,8 @@ const cards = [
             }
         ],
         "media": "",
-        "type": "category4",
-        "category": "",
+        "type": "",
+        "category": "category4",
         "canShuffle": true,
         "tool": "Slack"
     },
