@@ -53,7 +53,7 @@ const cards = [
         "subtitleAbove": "I'd like to...",
         "title": "Go Further with Slack AI",
         "subtitleBelow": "",
-        "content": "Here's a brief rundown, and some ideas for how else you can use these tools.",
+        "content": "Here is a brief rundown, and some ideas for how else you can use these tools.",
         "buttons": [
             {
                 "text": "Overview",
@@ -113,7 +113,7 @@ const cards = [
         "subtitleAbove": "",
         "title": "Extending Slack's Capabilities",
         "subtitleBelow": "",
-        "content": "Over time, your organization's Slack becomes more than just a communication platform -- it becomes a database of information, and a platform to collect curated insights. Here are some ways we're thinking of extending Slack's capabilities:",
+        "content": "Over time, your Slack becomes more than just a communication platform -- it becomes a database of information, and a platform to collect curated insights. Here are some ways we are thinking of extending these capabilities:",
         "buttons": [
             {
                 "text": "Back to Slack",
@@ -135,17 +135,14 @@ const cards = [
         "subtitleAbove": "Here's an",
         "title": "Overview",
         "subtitleBelow": "of Slack AI:",
-        "content": "Slack's 3 AI features are:
-  1) AI-powered search: Slack takes your query, looks for relevant messages, and crafts a response based on these messages.
-  2) AI-powered summarization: Look in the top right of any channel, direct messages, or thread -- the twinkle button gives you a time-bound summary of it.
-  3) Recap: Slack gives you a curated digest of selected channels. ",
+        "content": "Slack's 3 AI features are: AI-powered search, AI-powered summarization and Recap. Learn more below. ",
         "buttons": [
             {
                 "text": "Back to Slack",
                 "url": "#30"
             }
         ],
-        "media": "https://www.youtube.com/watch?v=GaMrFJqpa2Y",
+        "media": "https://www.youtube.com/embed/GaMrFJqpa2Y?si=BloUxWiMnBIOacFP",
         "type": "written",
         "category": "",
         "canShuffle": false,
@@ -215,7 +212,7 @@ const cards = [
                 "url": "#6"
             }
         ],
-        "media": "https://www.youtube.com/watch?v=NM1cMlSG-jk",
+        "media": "https://www.youtube.com/embed/NM1cMlSG-jk?si=qYqCVS2EGI5CAqAJ",
         "type": "written",
         "category": "",
         "canShuffle": false,
@@ -233,7 +230,7 @@ const cards = [
                 "url": "#6"
             }
         ],
-        "media": "https://www.youtube.com/watch?v=wPObo0dENbs",
+        "media": "https://www.youtube.com/embed/wPObo0dENbs?si=82BYl5L6ra7Ouiox",
         "type": "",
         "category": "",
         "canShuffle": false,
@@ -267,7 +264,7 @@ const cards = [
                 "url": "#1"
             }
         ],
-        "media": "https://www.youtube.com/watch?v=3v0EY-h7lPE",
+        "media": "https://www.youtube.com/embed/3v0EY-h7lPE?si=aeWZ03BLChZ9ZZoQ",
         "type": "title",
         "category": "",
         "canShuffle": false,
@@ -285,7 +282,7 @@ const cards = [
                 "url": "#10"
             }
         ],
-        "media": "https://www.youtube.com/watch?v=sOcBw06khMc",
+        "media": "https://www.youtube.com/embed/sOcBw06khMc?si=dZSvqRAl9Kw0PGzH",
         "type": "",
         "category": "",
         "canShuffle": false,
@@ -325,7 +322,7 @@ const cards = [
                 "url": "#10"
             }
         ],
-        "media": "https://www.youtube.com/watch?v=Z-Nmq8sIJVg",
+        "media": "https://www.youtube.com/embed/Z-Nmq8sIJVg?si=ixtNCFJGGDEkS0VL",
         "type": "",
         "category": "",
         "canShuffle": false,
